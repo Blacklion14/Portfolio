@@ -6,9 +6,9 @@ import About from "./About.js";
 import Connect from "./Connect.js";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useCookies } from 'react-cookie';
 
 function App() {
-  document.body.classList.add("dark-theme");
   return (
     <Router>
       <div className="App">
